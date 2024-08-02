@@ -2,3 +2,55 @@
     margin: 0;
     padding: 0;
 }
+.header{
+    color: white;
+    background-color: #1f2937;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px;
+    padding-top: 10px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.header-logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+.title{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    max-width: 450px;
+}
+.title-sub{
+    font-size: 18px;
+    color: #e5e7eb;
+    max-width: 450px;
+}
+.header-body{
+    display: flex;
+    padding: 100px 150px;
+    justify-content: space-around;
+    gap: 40px;
+}
+.header-right img{
+    max-height: 200px;
+}
+button{
+    border-radius: 7px;
+    background-color: #3882f6;
+    padding: 7px 20px;
+    margin-top: 8px;
+    border: none;
+    color: #f9faf8;
+}
