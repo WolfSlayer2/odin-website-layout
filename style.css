@@ -87,3 +87,18 @@ button{
     padding: 15px;
     font-size: 18px;
 }
+.second-section{
+    background-color: #e5e7eb;
+    padding: 150px 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+}
+.author{
+    font-weight: bold;
+    align-self: flex-end;
+}
