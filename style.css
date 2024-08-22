@@ -1,74 +1,94 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+FR+Trad:wght@100..400&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     background-color: #d7d2cc;
     color: #d3d3d3;
 }
-.header{
-    background: #200122;  
-background: -webkit-linear-gradient(to left, #6f0000, #200122);  
-background: linear-gradient(to left, #6f0000, #200122);
-opacity: 0.9;
-background-image: url("./images/vmp1.png");
 
-  /* Set a specific height */
-  height: 100%;
+.header {
+    background: #200122;
+    background: -webkit-linear-gradient(to left, #6f0000, #200122);
+    background: linear-gradient(to left, #6f0000, #200122);
+    opacity: 0.95;
+    background-image: url("./images/vampire.png");
+    height: 100%;
 
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position:center;
-  background-repeat: no-repeat;
-  background-size:cover;
+    /*parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.header-top{
+
+.header-top {
     display: flex;
     justify-content: space-between;
-    margin: 0 150px;
-    padding-top: 10px;
+    padding: 10px 0 4px 15px;
     font-family: "Playwrite FR Trad", cursive;
     font-optical-sizing: auto;
     font-style: normal;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(20, 5, 5, 0.066);
 }
-ul{
+
+ul {
     display: flex;
     list-style-type: none;
-    gap: 30px;
+    gap: 22px;
+    padding-right: 30px;
+    align-items: center;
 }
-a{
+
+a {
     text-decoration: none;
     color: #f5f3f4;
     font-size: 18px;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px red;
 }
-.header-logo{
+
+.header-logo {
     font-size: 24px;
     font-weight: 700;
+    text-shadow: 0px 0px 3px red;
 }
-.title{
+
+.title {
     font-size: 48px;
     font-weight: 800;
     max-width: 450px;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.08);
 }
-.title-sub{
+
+.title-sub {
     font-size: 18px;
-    max-width: 450px;
+    max-width: 390px;
+    font-weight: 500;
+    text-shadow: 1px 1px black;
 }
-.header-body{
+
+.header-body {
     display: flex;
-    padding: 100px 150px;
+    padding: 100px 150px 80px 150px;
     justify-content: space-between;
     gap: 20px;
 }
-.header-right img{
+
+.header-right img {
     max-height: 200px;
 }
-button{
+
+button {
     border-radius: 7px;
     background-color: #6d6875b5;
     padding: 7px 22px;
@@ -79,78 +99,92 @@ button{
     font-size: 14px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
 }
-.first-section{
+
+.first-section {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 45px;
     color: #1f2937;
 }
-.info{
+
+.info {
     font-size: 36px;
     font-weight: 800;
 }
-.boxes{
+
+.boxes {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 40px 70px 100px 70px;
     gap: 20px;
 }
-.one-box{
+
+.one-box {
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 200px;
 }
-.gifs{
+
+.gifs {
     width: 100%;
     height: 100%;
-    object-fit:fill;
+    object-fit: fill;
     border-radius: 12px;
 }
-.square{
+
+.square {
     border: 2px solid #3882f6;
     height: 160px;
     width: 160px;
     border-radius: 15px;
 }
-.sub-text{
+
+.sub-text {
     padding: 15px;
     font-size: 18px;
 }
-.second-section{
-    background-color: #2f0000;
+
+.second-section {
+    background-color: #2f0000e7;
     padding: 150px 200px;
     display: flex;
     flex-direction: column;
-    opacity: 0.9;
-    gap: 10px;
+    gap: 20px;
 }
-.quote{
+
+.quote {
     font-size: 36px;
     font-style: italic;
 }
-.author{
+
+.author {
     font-weight: bold;
     align-self: flex-end;
 }
-.third-section{
+
+.third-section {
     padding: 100px 200px;
     opacity: 0.8;
 }
-.blue-box{
+
+.red-box {
     background-color: #2F0000;
-    color:#f9faf8;
+    color: #f9faf8;
     padding: 40px 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-radius: 10px;
+    gap: 15px;
 }
-.blue-box-button{
+
+.red-box-button {
     border-radius: 7px;
     padding: 7px 28px;
 }
-.footer{
+
+.footer {
     background-color: #200b0b;
     color: #f9faf8;
     display: flex;
