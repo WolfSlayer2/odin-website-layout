@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Toggle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="modal">
+        <div class="modal-content">
+            <button onclick="location.href='index.html'" class="close-button">&times;</button>
+            <form action="https://formspree.io/f/mknlgnpp" method="POST">
+                <label for="name">Name</label>
+                <input type="name" id="name" name="name" required class="model-text"><br><br>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required class="model-text"><br><br>
+
+                <label for="message">Message</label><br>
+                <textarea id="message" name="message" required class="model-text" rows="5"></textarea><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
